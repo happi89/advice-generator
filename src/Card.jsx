@@ -11,7 +11,7 @@ const Card = () => {
     const data = await response.json();
     setSlip(data.slip);
   }
-
+  // random comment
   useEffect(() => {
     fetchSlip();
   }, [])
