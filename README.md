@@ -11,8 +11,6 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 
 ## Overview
 
@@ -26,11 +24,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Screenshot from 2022-06-28 16-08-14](https://user-images.githubusercontent.com/101960666/176275539-4e0d61aa-ca85-4a41-89cc-5b7770fd7c3d.png)
+
 
 ### Links
 
-- Live Site URL: [Advice Generator](https://happi89.github.io/advice-generator/)
+- Live Site URL: [Advice Generator](https://advice-generator-henna.vercel.app/)
 
 ## My process
 
@@ -46,31 +45,9 @@ Users should be able to:
 
 To see how you can add code snippets, see below:
 
-```html
-<h1>Some HTML code I'm proud of</h1>
 ```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
+The images were not loading so i finally found the solution!
 ```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+import dice from '../images/icon-dice.svg';
+import divider from '../images/pattern-divider-desktop.svg';
 ```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
