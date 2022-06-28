@@ -1,5 +1,7 @@
 import './index.css';
 import { useEffect, useState } from 'react';
+import dice from '../images/icon-dice.svg';
+import divider from '../images/pattern-divider-desktop.svg';
 
 const Card = () => {
   const [slip, setSlip] = useState('');  
@@ -19,10 +21,10 @@ const Card = () => {
       <p className='number'>Advice #{slip.id}</p>
       <p className='quote'>{`"${slip.advice}"`}</p>
     
-      <img className='divider-mobile' src="../images/pattern-divider-desktop.svg" alt="" />
+      <img src={divider} className='divider-mobile'  alt="" />
       
       <button className="dice-Btn" onClick={fetchSlip}>
-        <img className='dice' src="../images/icon-dice.svg" alt="" />
+        <img src={dice} className='dice'  alt="" />
       </button>
     </div>
   );
