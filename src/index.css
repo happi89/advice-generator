@@ -23,6 +23,14 @@ code {
     monospace;
 }
 
+.divider-mobile {
+  src: url("../images/pattern-divider-desktop.svg");
+}
+
+.dice {
+  src: url("../images/icon-dice.svg");
+}
+
 .container {
   background-color: hsl(217, 19%, 24%);
   text-align: center;
